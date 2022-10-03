@@ -1,0 +1,207 @@
+@import url(httpsl://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  
+  width: 310px;
+  background-color: #0e0000;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 89%), 0 5px 5px 0 rgb(0 0 0 / 275%);
+  padding: 34px;
+  border-radius: 7px;
+
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+ 
+ 
+}
+
+
+.form-field {
+  margin: 17px 48px 10px 46px;;
+  padding: 10px 15px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-field-signup {
+  margin: 0px 48px 0px 46px!important;
+}
+
+input {
+  background: #a7a5a5;
+  border-radius: 6px;
+}
+input:hover{
+  background-color: lightgray;
+  border-style: dashed;
+}
+
+
+
+button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  width: 25%;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+button:disabled {
+  cursor: default;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  color: #3f89f8;
+}
+.second{
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  margin-top: 10px;
+border-radius: 6px;
+}
+.first{
+  color: white;
+  margin-left: -6px;
+ 
+}
+.secondary{
+ display: flex;
+ margin-left: 146px;
+ padding-top: 11px;
+}
+
+
+
+
+.category{
+  flex-direction: column;
+  background-color: #bfbfbf;
+  padding: 75px 15px;
+  width: 12%;
+  margin-top: -57px;
+  text-decoration: none;
+
+  
+  
+}
+.list{
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  padding: 17.5px 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  border-radius: 7px;
+  height: 15px;
+  
+
+
+}
+
+.firstpage{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+.secondpage{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnzero{
+  background: #4caf50;
+    color: white;
+    cursor: pointer;
+    background-color: darkgreen;
+    border-radius: 6px;
+
+  
+}
+
+.sign-up {
+  position: relative;
+  top: 15px;
+}
+.sign_up_link {
+  color: #3f89f8;
+  text-decoration: none;
+}
+
+.navItem {
+  text-decoration: none;
+  
+}
+
+/* .last1{
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  margin-top: -28px;
+  margin-right: 8px;
+  position: sticky;
+  color: white;
+} */
+.third-page{
+
+  background-image: url("https://source.unsplash.com/random/1600x1080")
+  ;
+  background-repeat: repeat-x;
+
+}
+.cust{
+  background-color: black;
+  color: white;
+}
+h3{
+  display: flex;
+    justify-content: start;
+    margin-top: -29px;
+    margin-left: 39px;
+
+}
+.myname{
+
+  color: black;
+  position: absolute;
+    margin-top: 30px;
+    font-size: 1.5rem;;
+    margin-top: 5px;
+  
+}
+.homepagepick{
+
+  margin-left: -879px;
+    margin-top: -40px;
+  
+}
+.sections{
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+    margin-top: 61px;
+    margin-left: 38px;
+}
+.dash-head{
+color: white;
+}
+
